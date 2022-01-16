@@ -1,0 +1,51 @@
+www.google.com
+www.technicalguftgu.com
+
+Above one are domains and bought by google and technical guftgu respectively. When we type these domain names in browser, DNS Server resolves its IP address and we reach there.
+
+**DNS is a host name to IP Address translation service. and viceversa. IP Address to hostname.
+**Application layer protocol
+** Previously, all the host names were saved in .txt file (host.txt) . Now we use DNS server
+** Top level domains (Generic domains) are .com ; .org ; .net ; .edu ; .biz ; .mil 
+We have country level domains available
+** forward and reverse look up i.e. host name to IP Address and vice versa
+** DNS Server is Highly targeted for hacking purpose
+** IT uses TCP port 53 and UDP Port 53 //** For 80% cases, DNS use UDP because UDP is fast as its connection less protocol. but where  it needs acknowledgement and we we dont need loss of data, we need TCP.
+** Today DNS Support 13 Root Name Server (A to M )
+Note : There are two ways to resolve hostname to IP Address. The first is by building a host table on each router, mentioning that these domains are running on these routers and other domains are on other router.
+But this way is not feasible for big network. So another way is to build a DNS Server and this DNS Server has information of all domains.
+
+We have three type of domains
+Generic --> .net ; .edu ; .org ; .mil
+Country -> Every country has its individual domain.
+Inverse --> IP to domain name mapping
+
+
+What is Namespace?
+The way/method to give name to domain
+There are two ways to give name to domain
+Flat :- It was used in small systems. In this method, name is assigned to an address.It is in sequence of character without any structure.cant be used in large systems.
+Hierarchical :- made of several paths. from bottom to top
+
+To resolve a domain, to know the ip, we have two method
+Recursive : Root name Server is connected in entire process of resolving IP.
+Iterative
+
+Hierarchy of Name server:
+Root Name server :- we have total 13 root server. It is contactd by name servers that cannot resolve the name. It contact top level name server if name mapping is not known.It then gets the mapping and return the IP address to the host.
+
+Top level server :- Its responsible for .com, .org, .edu etc and all top level country domain like .uk ; .us ; .in etc. They have information about Authoritative domain servers and know names and IP address of each authoritative name server for second level domains.
+
+Authorative Name server:- This actually resolves the IP. It can be manitained by Organization or service provider. In order to reach www.amazon.in, we have to ask root DNS Server, then it will reach to top level domain server, and then to authorative domain server, which actually contains the IP Address, so authorative server will return the associate IP address.
+
+
+FQDN - Fully Qualified Domain Name
+Partially Qualified domain name
+
+Domain always start with Root.and we represent the root with dot
+
+FQDN :- In this a label is terminated by null string.
+e.g. xyz.google.co.in.
+It contains full name of host.
+
+PQDN :- label is not terminated by null string. Start from node but does not reach till root
