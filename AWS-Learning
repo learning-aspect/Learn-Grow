@@ -1,0 +1,12 @@
+Graceful shutdown using AWS Auto Scaling groups and Terraform:
+
+https://circleci.com/blog/graceful-shutdown-using-aws/
+
+Under the Hood: AWS CodeDeploy and Auto Scaling Integration:
+
+https://aws.amazon.com/blogs/devops/under-the-hood-aws-codedeploy-and-auto-scaling-integration/
+
+supervisor-is-deleted-when-ec2-instance-terminates-and-relaunch:
+
+https://stackoverflow.com/questions/28702780/setting-up-supervisord-on-a-aws-ami-linux-server
+https://stackoverflow.com/questions/62504493/supervisor-is-deleted-when-ec2-instance-terminates-and-relaunch
