@@ -6,3 +6,20 @@ project is hosted on GCP. Some of its resources are hosted on AWS and some are o
 Azure Defender also provide workbooks which can be used to remediate if there are non compliant resource. We can monitor CIS , PCI DSS and NIST compliance resources using Defender for Cloud.
 Earlier Azure was using Azure Security Centre and sentinel to work as Security hub for its resources. Now Microsoft has got defender for cloud for all its security needs and implementing this in project giving immense satisfaction. Implementing and Using Azure Logic Apps to remediate the Alert and notification if there are high severity security issues.
 
+Interview Question :
+What is Local provisioner in Terraform? - 
+Type of  provisioner
+local-exec
+remote-exec
+
+Terraform commands?
+
+What is difference between replica set and Replication controller?
+
+What Artifacts you are using in your pipeline?
+
+Explain CI/CD Pipeline in your project.
+
+
+
+
