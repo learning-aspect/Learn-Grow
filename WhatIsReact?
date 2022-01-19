@@ -1,0 +1,25 @@
+React :- Java Script library for building User Interfaces. React makes it easy to create Interactive UIs. Maintained by facebook, and community of individual developers and companies. React can be used as base in the development of single page or mobile applications, as its optimal for  fetching rapidly changing data.
+
+What is Single Page application? Single Page Application Framework - React , Angular or Vue.js 
+Asynchronus AJAX Call / HTTP Call
+
+These framework minimize the effort of writing java script code. React has hooks, Angular has directives.
+
+These framework uses Java script and other tools in background.
+
+if your website has number of users, then there may be load on your server. page load can take time. React and Angular type framework help ease this. without page load, content is updated.
+
+Type Script?  Type safety . for e.g. someone has equated String type variable with number, It can cause bugs. SO Type Script will stop before hand by declaring Types of different variables.
+
+Type script dont run in browser. It convert into java script and developed by developers. 
+
+Basic technology
+HTML, CSS and Java Script
+
+
+Django
+
+Basic WebSite : request data from backend. Client requests server to send UI related files and server will send those file and then browser displays those files.
+
+
+
